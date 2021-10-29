@@ -1,3 +1,4 @@
+/* General styling applying to all items. */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -21,10 +22,12 @@ body {
   font-size: 48px;
 }
 
+/* Styling refers to the color change in letters for the company logo. */
 .seo {
   color: #d9dcd6;
 }
 
+/* Styling for items inside nav bar. */
 .header section {
   padding-top: 15px;
   margin-right: 20px;
@@ -42,20 +45,23 @@ body {
   margin-left: 25px;
 }
 
+/* Anchor link styling in nav bar. */
 a {
   color: #ffffff;
   text-decoration: none;
+}
+
+/* Background img styling "fill the window". */
+.background-img {
+  width: 100%;
+  margin-bottom: 25px;
 }
 
 p {
   font-size: 16px;
 }
 
-.background-img {
-  width: 100%;
-  margin-bottom: 25px;
-}
-
+/* Img placements and styling inside 'main' html element. */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -66,6 +72,7 @@ p {
   margin-left: 25px;
 }
 
+/* Broad styling for main website content. */
 .content {
   width: 75%;
   display: inline-block;
@@ -83,6 +90,7 @@ p {
   background-color: #2589bd;
 }
 
+/* All selectors styled the same can be added together. Img, section, h2, h3 elements all styled the same in 'main' and 'aside' elements. */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -129,6 +137,7 @@ p {
   font-size: 36px;
 }
 
+/* Footer styling. */
 .footer {
   padding: 30px;
   clear: both;
